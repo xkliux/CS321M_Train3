@@ -1,0 +1,21 @@
+{
+  "encoder_name": "sentence-transformers/all-mpnet-base-v2",
+  "embedding_dim": 768,
+  "d_extra": 6,
+  "x_text_dim": 768,
+  "uses_id_embeddings": true,
+  "uses_subject_id_embedding": true,
+  "uses_benchmark_id_embedding": true,
+  "uses_condition_embedding": true,
+  "subject_embedding_dim": 32,
+  "benchmark_embedding_dim": 16,
+  "condition_embedding_dim": 8,
+  "extra_features": [
+    "subject_prior",
+    "benchmark_prior",
+    "condition_prior",
+    "item_prior",
+    "subject_minus_item",
+    "subject_minus_benchmark"
+  ]
+}

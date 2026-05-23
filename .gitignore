@@ -1,0 +1,21 @@
+train.py
+train2.py
+*.csv
+*.parquet
+*.pt
+*.pth
+*.npy
+*.zip
+embedding_cache*/
+Meta_Data/
+saved_parquet/
+starting_kit/
+test/
+trace/
+train*/
+__pycache__/
+.idea/
+.venv*/
+submission - Copy*/
+!submission/
+!submission/**

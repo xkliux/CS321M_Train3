@@ -1,0 +1,8 @@
+{
+  "loss": 0.33314556750816515,
+  "subject_weight": 0.0,
+  "model_weight": 0.65,
+  "global_shrink": 1.0,
+  "clip_low": 0.05,
+  "clip_high": 0.95
+}
